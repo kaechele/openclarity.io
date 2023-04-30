@@ -1,5 +1,5 @@
 import ReactPlayerLoader from "@brightcove/react-player-loader";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { AiFillGithub } from "react-icons/ai";
 import { ImCheckmark } from "react-icons/im";
 import styles from "../../../styles/components/WhatIsSection.module.scss";

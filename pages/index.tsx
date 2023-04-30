@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Container from "../components/Container";
 import Layout from "../components/Layout";
 import ThreeCardSection from "../components/pages/home/ThreeCardSection";
