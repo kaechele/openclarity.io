@@ -10,11 +10,8 @@
   },
   "dependencies": {
     "@brightcove/react-player-loader": "^1.4.2",
-    "bowser": "^2.11.0",
-    "classnames": "^2.3.2",
     "date-fns": "^2.29.3",
     "friendly-errors-webpack-plugin": "^1.7.0",
-    "gray-matter": "^4.0.3",
     "next": "12.3.1",
     "next-compose-plugins": "^2.2.1",
     "next-seo": "^5.15.0",
@@ -23,14 +20,8 @@
     "react-dom": "18.2.0",
     "react-gtm-module": "^2.0.11",
     "react-icons": "^4.7.1",
-    "react-markdown": "^8.0.3",
     "react-player": "^2.11.0",
-    "react-responsive-carousel": "^3.2.23",
-    "remark": "^14.0.2",
-    "remark-html": "^15.0.1",
     "sass": "^1.57.1",
-    "sharp": "^0.31.3",
-    "swiper": "^8.4.3",
     "webpack": "^5.74.0"
   },
   "devDependencies": {

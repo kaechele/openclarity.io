@@ -1,5 +1,4 @@
 import Image from "next/image";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Container from "../components/Container";
 import Layout from "../components/Layout";
 import ThreeCardSection from "../components/pages/home/ThreeCardSection";
