@@ -34,10 +34,9 @@ const Card = ({ logo, subLogo, description, link }: Props) => {
         />
         <div className={styles.Details}>
           <p className={styles.Description}>{description}</p>
-          <Link href={link}>
-            <a target="_blank" className={styles.Link}>
-              Learn more {">"}
-            </a>
+          <Link href={link} target="_blank" className={styles.Link}>
+            Learn more{">"}
+
           </Link>
         </div>
       </div>

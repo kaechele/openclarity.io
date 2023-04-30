@@ -22,24 +22,24 @@ const Navbar = () => {
 
   return (
     <div className={styles.Navbar}>
-      <Link href={RouterPaths.Landing}>
-        <a className={styles.NavbarLogoContainer}>
-          <Image
-            className={styles.NavbarLogo}
-            src={
-              size.width < 1000
-                ? router.pathname === RouterPaths.Landing
-                  ? ImgPaths.LogoDarkIconSVG
-                  : ImgPaths.LogoLightIconSVG
-                : router.pathname === RouterPaths.Landing
-                ? ImgPaths.LogoDarkHorizantalSVG
-                : ImgPaths.LogoLightHorizantalSVG
-            }
-            alt="logo"
-            width={"200px"}
-            height={"30px"}
-          />
-        </a>
+      <Link href={RouterPaths.Landing} className={styles.NavbarLogoContainer}>
+
+        <Image
+          className={styles.NavbarLogo}
+          src={
+            size.width < 1000
+              ? router.pathname === RouterPaths.Landing
+                ? ImgPaths.LogoDarkIconSVG
+                : ImgPaths.LogoLightIconSVG
+              : router.pathname === RouterPaths.Landing
+              ? ImgPaths.LogoDarkHorizantalSVG
+              : ImgPaths.LogoLightHorizantalSVG
+          }
+          alt="logo"
+          width={"200px"}
+          height={"30px"}
+        />
+
       </Link>
       <div className={styles.NavbarNavlinkContainer}>
         <NavItem route={RouterPaths.Landing} routeName={RouteNames.Landing} />

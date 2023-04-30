@@ -14,17 +14,17 @@ const NavDropdownItem = ({
 }) => {
   const router = useRouter();
   return internal ? (
-    <Link href={link}>
-      <a
-        className={
-          router.pathname === link
-            ? styles.PrimaryNavDropdownMenuItemActive
-            : styles.PrimaryNavDropdownMenuItem
-        }
-      >
-        {text}
-      </a>
-    </Link>
+    (<Link
+      href={link}
+      className={
+        router.pathname === link
+          ? styles.PrimaryNavDropdownMenuItemActive
+          : styles.PrimaryNavDropdownMenuItem
+      }>
+
+      {text}
+
+    </Link>)
   ) : (
     <a
       className={styles.PrimaryNavDropdownMenuItem}

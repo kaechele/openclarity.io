@@ -38,23 +38,23 @@ const NavItem = ({
       {routeName}
     </div>
   ) : (
-    <Link href={route}>
-      <a
-        style={{
-          color:
-            router.pathname === RouterPaths.Landing
-              ? Colors.White
-              : Colors.TextDark,
-          textDecoration: router.pathname === route ? "underline" : "none",
-          textUnderlineOffset: ".7rem",
-          textDecorationThickness: "2px",
-        }}
-        className={styles.NavbarNavlink}
-        target={openNewWindow ? "_blank" : "_self"}
-      >
-        {routeName}
-      </a>
-    </Link>
+    (<Link
+      href={route}
+      style={{
+        color:
+          router.pathname === RouterPaths.Landing
+            ? Colors.White
+            : Colors.TextDark,
+        textDecoration: router.pathname === route ? "underline" : "none",
+        textUnderlineOffset: ".7rem",
+        textDecorationThickness: "2px",
+      }}
+      className={styles.NavbarNavlink}
+      target={openNewWindow ? "_blank" : "_self"}>
+
+      {routeName}
+
+    </Link>)
   );
 };
 
