@@ -20,7 +20,7 @@ export const whatIsData = [
     mainColor: "#f0ad42",
     thumbnail: ImgPaths.DefaultThumbnail,
     diagram: ImgPaths.VMClarityDiagram,
-    diagramHeight: "603px",
+    diagramHeight: 603,
     videoID: "6324304119112",
   },
   {
@@ -38,7 +38,7 @@ export const whatIsData = [
     mainColor: "#52BAE6",
     thumbnail: ImgPaths.DefaultThumbnail,
     diagram: ImgPaths.KubeClarityDiagram,
-    diagramHeight: "569px",
+    diagramHeight: 569,
     videoID: "6313395145112",
   },
   {
@@ -56,7 +56,7 @@ export const whatIsData = [
     mainColor: "#73B736",
     thumbnail: ImgPaths.APIClarityThumbnail,
     diagram: ImgPaths.APIClarityDiagram,
-    diagramHeight: "558px",
+    diagramHeight: 558,
     videoID: "6313395301112",
   },
 ];

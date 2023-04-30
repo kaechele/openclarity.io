@@ -15,7 +15,7 @@ type Props = {
   mainColor: string;
   thumbnail: string;
   diagram: string;
-  diagramHeight: string;
+  diagramHeight: number;
   videoID: string;
 };
 
@@ -55,7 +55,7 @@ const WhatIsSection = ({
                 src={diagram}
                 alt="diagram"
                 className={styles.Diagram}
-                width={"1236px"}
+                width={1236}
                 height={diagramHeight}
               />
               <h2 className={styles.Header}>Key Capabilities:</h2>

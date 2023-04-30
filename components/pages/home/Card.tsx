@@ -24,19 +24,18 @@ const Card = ({ logo, subLogo, description, link }: Props) => {
       style={{ display: "flex", justifyContent: "center" }}
     >
       <div className={styles.Card}>
-        <Image src={logo} alt="logo" width={"188px"} height={"150px"} />
+        <Image src={logo} alt="logo" width={188} height={150} />
         <Image
           src={subLogo}
           alt="sublogo"
           className={styles.Sublogo}
-          width={"270px"}
-          height={"30px"}
+          width={270}
+          height={30}
         />
         <div className={styles.Details}>
           <p className={styles.Description}>{description}</p>
           <Link href={link} target="_blank" className={styles.Link}>
             Learn more{">"}
-
           </Link>
         </div>
       </div>

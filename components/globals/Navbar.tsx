@@ -23,7 +23,6 @@ const Navbar = () => {
   return (
     <div className={styles.Navbar}>
       <Link href={RouterPaths.Landing} className={styles.NavbarLogoContainer}>
-
         <Image
           className={styles.NavbarLogo}
           src={
@@ -36,10 +35,9 @@ const Navbar = () => {
               : ImgPaths.LogoLightHorizantalSVG
           }
           alt="logo"
-          width={"200px"}
-          height={"30px"}
+          width={200}
+          height={30}
         />
-
       </Link>
       <div className={styles.NavbarNavlinkContainer}>
         <NavItem route={RouterPaths.Landing} routeName={RouteNames.Landing} />

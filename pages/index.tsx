@@ -81,8 +81,8 @@ const HeroBanner = () => {
               className={styles.HomeHeaderLogo}
               src={ImgPaths.OpenClarityLogo}
               alt="logo"
-              width={"400px"}
-              height={"60px"}
+              width={400}
+              height={60}
             />
 
             <h2 className={styles.HomeHeaderTextSubheader}>
@@ -149,8 +149,8 @@ const IndividualCompanyCard = ({ company }: { company: ICompanyObj }) => {
           className={styles.IndividualContributorLogo}
           src={company.logo}
           alt={`${company.name} Logo`}
-          width={"200px"}
-          height={"48px"}
+          width={200}
+          height={48}
         />
       </div>
     </a>
